@@ -13,7 +13,7 @@ Include both the CSS and the JS.
 
 Create a trigger element (any element will work).\
 Give that element a data-ptarget attribut and give it some identifier you like.\ 
-In this example we're using *info* as the identifier.\
+In this example we're using *info* as the identifier.
 
 ```html
 <button data-ptarget="info">Trigger</button>
@@ -22,7 +22,7 @@ In this example we're using *info* as the identifier.\
 Then create a div that will be whats opened by the trigger.\
 The div must atleast have the data-popup attribut.\
 It is possible to use a template for the popup, by name.\
-Possible templates are:\
+Possible templates are:
 
 - simple
 - info
@@ -40,7 +40,7 @@ possible template using all 3 attributes.
 ```
 
 Place your own markup instead of *Your popup content here.*.\
-Thats it. Now if you click on the trigger, the following popup will open.\
+Thats it. Now if you click on the trigger, the following popup will open.
 
 ![Popup](https://image.prntscr.com/image/K_NeLxyORxCyGxZoLt_vFg.png)
 
