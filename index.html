@@ -4,13 +4,48 @@
         <meta charset="UTF-8">
         <title>Popup Widget</title>
         <link rel="stylesheet" href="easypopups.css">
+        <style>
+            body {
+                width: 100vh;
+                height: 100vh;
+                background: #ddd;
+            }
+            button {
+                width: 250px;
+                height: 55px;
+                margin: 20px;
+                border: none;
+                border-radius: 40px;
+                text-align: center;
+                color: #fff;
+                cursor: pointer;
+
+                background-size: 300% 100%;
+                background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+                transition: all 300ms ease-in-out;
+            }
+
+            button:hover {
+                background-position: 100% 0;
+            }
+
+            button:focus {
+                outline: none;
+            }
+        </style>
     </head>
     <body>
 
-        <button data-ptarget="info">Trigger</button>
+        <button data-ptarget="example1">Trigger (simple)</button>
+        <button data-ptarget="example2">Trigger (info)</button>
 
-        <div data-popup="info" data-ptype="simple" data-ptitle="Custom title">
+        <div data-popup="example1" data-ptype="simple" data-ptitle="Custom title">
            Your popup content here.
+        </div>
+
+        <div data-popup="example2" data-ptype="info" data-ptitle="Custom title">
+            Your info here.
         </div>
 
         <script src="easypopups.js"></script>
