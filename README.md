@@ -4,6 +4,8 @@ A very small widget for simple popups based on HTML data-* attributes.
 
 ## Usage
 
+[Demo of the widget](https://veteri.github.io/easy-popup/)
+
 Include both the CSS and the JS.
 
 ```html
@@ -42,6 +44,7 @@ possible template using all 3 attributes.
 Place your own markup instead of *Your popup content here.*.  
 Thats it. Now if you click on the trigger, the following popup will open.  
 
-![Popup](https://image.prntscr.com/image/K_NeLxyORxCyGxZoLt_vFg.png)
+![Popup](https://image.prntscr.com/image/K_NeLxyORxCyGxZoLt_vFg.png)  
+[Try it yourself](https://veteri.github.io/easy-popup/)
 
 
