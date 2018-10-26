@@ -12,8 +12,7 @@ Include both the CSS and the JS.
 ```
 
 Create a trigger element (any element will work).
-Give that element a data-ptarget attribut and give
-it some identifier you like. 
+Give that element a data-ptarget attribut and give it some identifier you like. 
 In this example we're using *info* as the identifier.
 
 ```html
