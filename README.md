@@ -38,6 +38,7 @@ using all 3 attributes.
 <div data-popup="info" data-ptype="simple" data-ptitle="Custom title">
     Your popup content here.
 </div>
+```
 
 Place your own markup instead of *Your popup content here.*.
 Thats it. Now if you click on the trigger, the following popup will open.
